@@ -17,6 +17,7 @@ article{
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     border-bottom: 5px solid #C4C4C4;
 }
 .curso03{
@@ -48,4 +49,27 @@ main a{
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
+}
+@media screen and (max-width: 769px){
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    article{
+        padding: 100px 0;
+    }
+   main div{
+        width: 720px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 481px){
+    main div{
+        width: 460px;
+    }
+    img{
+        width: 300px;
+        padding-bottom: 40px;
+    }
 }
