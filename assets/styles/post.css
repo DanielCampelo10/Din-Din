@@ -1,0 +1,87 @@
+main{
+    justify-content: center;
+
+}
+.artigo{
+    padding: 100px 130px;
+    display: flex;
+    flex-direction: column;
+}
+.artigo  h1, .data-publicação{
+    text-align: center;
+    margin: 0;
+}
+.artigo h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    margin-bottom: 12px;
+}
+.data-publicação{
+    font-weight: 300;
+    font-size: 18px;
+    color: #9D9D9D;
+    margin-bottom: 74px;
+}
+.artigo img{
+    width: 1032px;
+    height: 465px;
+    background: #9D9D9D;
+    margin: 0 74px 64px;
+}
+.artigo p, .artigo h2{
+    text-align: left;
+    margin: 0 74px
+}
+.artigo p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.artigo h2{
+    font-weight: 500;
+    font-size: 26px;
+    color: #419488;
+}
+.cursos{
+    background-color: #F7F7F7;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 130px;
+}
+.cursos  h1{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    margin-bottom: 100px;
+}
+.cursos div{
+    width: 350px;
+    text-align: center;
+}
+.cursos img{
+    height: 270px;
+    margin-bottom: 43px;
+}
+.cursos h2{
+    font-weight: 700;
+    color: #FF4081;
+    font-size: 25px;
+}
+.cursos p{
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+    padding: 28px 0;
+}
+.cursos a{
+    padding: 15px 30px;
+    background: #FF4081;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}

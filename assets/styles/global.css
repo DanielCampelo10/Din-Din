@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, footer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background: #2E948A;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+header h2 a{
+    display: block;
+    color: transparent;
+    background: url('../images/logo-header.png');
+    width: 244px;
+    height: 77px;
+}
+header nav{
+    display: flex;
+    text-transform: uppercase;
+}
+header nav li{
+    float: left;
+    margin-right: 40px;
+}
+header nav a{
+    color:#fdfdfd;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 0 20px;
+}
+main{
+    max-width: 1440px;
+}
+footer{
+    background: #419488;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+footer h2 a{
+    display: block;
+    color: transparent;
+    background: url('../images/logo-footer.png');
+    width: 312px;
+    height: 102px;
+}
+footer nav li{
+    margin: 7px;
+    list-style: none;
+    margin-right: 40px;
+    text-transform: lowercase;
+}
+footer nav a{
+    color:#fdfdfd;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.links-footer a{
+    border: 2px solid white;
+    border-radius: 62px;
+    padding: 14px 41px;
+    display: block;
+    color: #fdfdfd;
+    margin: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.screen-reader-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+@media screen and (max-width: 769px){
+    .container{
+        width: 720px;
+    }
+    
+}
+@media screen and (max-width: 481px){
+    .container{
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    header h2{
+        margin: 10px 0;
+    }
+    nav{
+        margin: 10px 0;
+    }
+}

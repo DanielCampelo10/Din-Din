@@ -1,0 +1,48 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: #FF4081;
+    margin: 0 40px 20px 0;
+}
+.banner p{
+    width: 460px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.aulas{
+    background: #F7F7F7;
+    padding: 0 100px;
+}
+article{
+    padding: 80px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 5px solid #C4C4C4;
+    max-width: 1244px;
+}
+.aula3{
+    border-bottom:none;
+}
+.aulas div, video{
+    padding: 20px 40px;
+} 
+.aulas h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+    margin-bottom: 26px;
+}
+.aulas p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.aulas div{
+    width: 490px;
+}

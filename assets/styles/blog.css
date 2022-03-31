@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main{
+    justify-content: center;
+}
+.banner{
+    padding: 48px 225px 90px;
+
+}
+h1{
+    font-weight: 700;
+    font-size: 47px;
+    color: #009688;
+    text-transform: uppercase;
+}
+.banner p{
+    width: 461px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.lista-posts{
+    background-color: #E5E5E5;
+    padding: 50px 70px;
+}
+article {
+    padding: 50px 60px;
+    width: 518px;
+}
+article img{
+    width: 518px;
+    height: 259px;
+    background: #C4C4C4;
+}
+article p{
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+}
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF4081;
+    margin: 19px 0;
+}
