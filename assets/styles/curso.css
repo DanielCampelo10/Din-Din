@@ -1,6 +1,7 @@
 .banner{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 100px 200px;
 }
@@ -45,4 +46,31 @@ article{
 }
 .aulas div{
     width: 490px;
+}
+@media screen and (max-width: 769px){
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    .banner{
+        padding: auto;
+    }
+    .banner p{
+        margin-bottom: 50px;
+    }
+    main{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 481px){
+    main{
+        width: 480px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .aulas{
+        padding: 0;
+    }
 }

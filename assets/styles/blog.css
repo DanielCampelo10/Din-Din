@@ -47,3 +47,48 @@ h3{
     color: #FF4081;
     margin: 19px 0;
 }
+
+@media screen and (max-width: 769px){
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    main{
+        width: 768px;
+    }
+    .banner{
+        padding: 0;
+        margin: 0;
+    }
+    .lista-posts{
+        width: 768px;
+        padding: 50px 0;
+    }
+    img{
+        width: 660px;
+    }
+}
+
+@media screen and (max-width: 481px){
+    main{
+        width: 480px;
+    }
+    .banner img{
+        width: 0;
+        height: 0;
+    }
+    .banner p{
+        margin-bottom: 40px;
+    }
+    .lista-posts{
+        width: 480px;
+        padding: 100px 0;
+    }
+    .lista-posts img{
+        width: 440px;
+    }
+    .post{
+        width: 440px;
+        padding: 50px 0;
+    }
+}

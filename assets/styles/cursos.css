@@ -13,13 +13,16 @@ span{
     font-size: 20px;
     color: #555555;
 }
+h1, span{
+    margin-left: 80px;
+}
 article{
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
     border-bottom: 5px solid #C4C4C4;
 }
-.curso03{
+article:nth-last-child(1){
     border: none;
 }
 img{

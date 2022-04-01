@@ -85,3 +85,31 @@ main{
     font-size: 20px;
     color: #FFFFFF;
 }
+@media screen and (max-width: 769px){
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    .artigo img{
+        width: 0;
+        height: 0;
+    }
+    main{
+        width: 768px;
+    }
+    .cursos img{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 481px){
+    main{
+        width: 480px;
+    }
+    input, textarea{
+        width: 400px;
+    }
+    .artigo{
+        padding: 30px;
+    }
+}
